@@ -21,7 +21,7 @@ export default function Navbar() {
       <div className="container flex h-16 items-center">
         <Link href="/" className="flex items-center space-x-2">
           <Pen className="h-6 w-6" />
-          <span className="font-bold">BlogSpace</span>
+          <span className="font-bold">H-Tech Blogs</span>
         </Link>
         <nav className="flex flex-1 items-center justify-end space-x-6">
           {routes.map((route) => (
